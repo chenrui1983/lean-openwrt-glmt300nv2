@@ -20,7 +20,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: REPO_URL : https://github.com/openwrt/openwrt
+  REPO_BRANCH : openwrt-21.02
+  FEEDS_CONF : feeds.conf.default
+  CONFIG_FILE : .config
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
