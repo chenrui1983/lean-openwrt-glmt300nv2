@@ -21,7 +21,7 @@ on:
         name: Build OpenWrt
 
 env:
-  REPO_URL: REPO_URL : https://github.com/openwrt/openwrt
+  REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH : openwrt-21.02
   FEEDS_CONF : feeds.conf.default
   CONFIG_FILE : .config
